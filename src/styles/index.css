@@ -10,3 +10,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.divNavBar{
+    background: #34393F;
+}
+
+.nav-link {
+    color:lightgray;
+    font-weight: 600; 
+}
+.navbar-brand{
+    color:white
+}
+
+.nav-item > .nav-link:hover{
+    color: white;
+}
+
+.navbar-nav > .nav-item > .active { 
+   color:white ; 
+}
+
+.navbar-brand:hover{
+    color:fuchsia
+}
+.divJumbotron{
+    background: #CCCCCC;
+}
+h1{
+    font-size: 3.7rem;
+    font-weight: 400;
+}
+.img-card{
+    height: 17rem;
+}
+.card-group{
+    padding:0rem 2rem;
+}
+.footer{
+    background: #34393F;
+}
+.btn{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.container-fluid{
+    justify-content: space-between;
+}
