@@ -4,7 +4,8 @@ import PropTypes from "prop-types";
 const Card = (props) => {
     return (  
        
-
+<div className="col">
+    
             <div className="card mx-3 border">
                 <img src={props.imgUrl} className="img-card card-img-top" alt="Card Image"></img>
                 <div className="card-body">
@@ -15,6 +16,7 @@ const Card = (props) => {
                 <a class="btn btn-primary" href={props.buttonUrl}>{props.buttonLabel}</a>
                 </div>
             </div>   
+</div>
     )
 }
 Card.protoTypes = {
